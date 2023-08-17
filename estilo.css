@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: url('img/Tema.jpg');
+    color: rgba(23, 1, 10, 0.84);
+    background-size: cover;
+    user-select: none;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font: normal 15pt Arial;
+}
+
+.title {
+    font-size: calc(15px + 3vw);
+}
+.title p {
+    font-size: calc(12px + 1vw);
+}
+.countdown {
+    display: flex;
+    width: 60vw ;
+    justify-content: space-between ;
+}
+
+.countdown h1 {
+    font-size: calc(15px + 5vw);
+    text-shadow: 0 0 10px whitesmoke;
+}
+
+.button {
+    background-color: bisque;
+    color: rgb(47, 13, 85);
+    padding: 10px;
+    cursor: pointer;
+    border: solid 2px whitesmoke ;
+}
+
+.button:hover {
+    background-color:rgb(62, 16, 24) ;
+    color: whitesmoke;
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    width:100vw;
+    height: 100vh;
+    align-items: center;
+    justify-content: space-evenly;
+    text-align: center;
+    background-color: hsla(211, 44%, 77%, 0.248);
+}
+
+.countdown {
+   
+
+}
